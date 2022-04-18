@@ -25,9 +25,9 @@ int main(int argc,char *argv[]){
 	t+ii;
 	while(1){
 		digitalWrite(7,1);
-		usleep(ii);
+		usleep(i*1000000);
 		digitalWrite(7,0);
-		usleep(ii);
+		usleep(i*1000000);
 		if(time(NULL)>t)goto exits;
 	}
 	exits:
