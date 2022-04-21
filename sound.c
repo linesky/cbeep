@@ -27,7 +27,7 @@ int main(int argc,char *argv[]){
 	ii=(int)dd;
 	pinMode(7,1);
 	t=time(NULL);
-	t+ii;
+	t=t+ii;
 	while(1){
 		digitalWrite(7,1);
 		ccsleep(i);
